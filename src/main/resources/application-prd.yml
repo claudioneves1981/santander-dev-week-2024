@@ -8,4 +8,8 @@ spring:
         show-sql: true
         open-in-view: false
         hibernate:
-            ddl-auto: create
+            ddl-auto: create  
+     mvc: 
+        static-path-pattern: /static/**
+     resources:
+        static-locations: classpath:/static/
